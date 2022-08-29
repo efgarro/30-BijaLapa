@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Hello Red Lapas</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BijaLapa</title>
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/modules.css" />
+    <script src="BLRevA.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="layout-flexRow">
+      <div class="header--left"></div>
+      <div class="header--center layout-flexRow">
+        <div class="navbar--logo">
+          <h1>BijaLapa</h1>
+          <!-- <img class="logo--img" src="img/logoBL.png" alt="BijaLapa Logo" /> -->
+        </div>
+        <nav>
+          <ul class="navbar--menu" data-visible="false">
+            <li>
+              <a href="">View Rooms</a>
+            </li>
+            <li>
+              <a href="">Amenities</a>
+            </li>
+            <li>
+              <a href="">Activities</a>
+            </li>
+            <li>
+              <a href="">Scarlet Macaw Habitat Project</a>
+            </li>
+            <li>
+              <a href="">Organic Farm</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navbar--toggle" data-visible="false"></div>
+      <div class="header--right"></div>
+    </header>
+    <section>
+      <div>
+        <img class="coverPic__img" src="img/Vista-3.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="subHeader">
+      <div class="subHeader--content layout-flexRow layout-wrapper">
+        <div class="subHeader--box"></div>
+        <div class="subHeader--logo">
+          <img src="/img/logoBL.png" alt="" />
+        </div>
+        <div class="subHeader--box"></div>
+      </div>
+    </section>
+    <section id="introCard">
+      <div class="introCard--contentEnd layout-flexRow layout-wrapper">
+        <h2 class="introCard--title">View Rooms</h2>
+        <div class="introCard--picPort">
+          <img src="/img/Hab-2.jpg" alt="" />
+        </div>
+        <div class="introCard--titleBox"><h2>View Rooms</h2></div>
+        <div class="introCard--picLand">
+          <img src="/img/Hab-1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="introCard">
+      <div class="introCard--contentCenter layout-flexRow layout-wrapper">
+        <div class="introCard--picLand">
+          <img src="/img/Am-1.jpg" alt="" />
+        </div>
+        <div class="introCard--titleBox"><h2>Amenities</h2></div>
+        <div class="introCard--picLand">
+          <img src="/img/Am-2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="introCard">
+      <div class="introCard--contentStart layout-flexRow layout-wrapper">
+        <div class="introCard--picLand">
+          <img src="/img/A-2.jpg" alt="" />
+        </div>
+        <div class="introCard--titleBox"><h2>Activities</h2></div>
+        <div class="introCard--picPort">
+          <img src="/img/A-1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="footer"></section>
+
+    <!-- <div class="scale">
+      <img src="/img/logoBL.png" alt="logoBL" />
+      <span>Span</span>
+    </div> -->
+  </body>
 </html>
